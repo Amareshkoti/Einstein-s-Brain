@@ -1,9 +1,12 @@
 Copyright (c) 2026 Amaresh. All rights reserved.
 
-This repository and everything in it (text, film, images, figures, data and
-results) are the work of the copyright holder. No license is granted to copy,
-modify, redistribute, publish, or use any part of it, including for training
-or evaluating machine-learning systems, without prior written permission from
-the copyright holder.
+This repository and everything in it (code, text, film, images, figures, data
+and results) are the work of the copyright holder.
 
-Viewing this repository on GitHub and linking to it are permitted.
+You may view this repository, link to it, and download and run its code for
+the sole purpose of reviewing or verifying the published results.
+
+No other license is granted. Without prior written permission from the
+copyright holder you may not copy, modify, redistribute or publish any part
+of it, or use it to build other projects or to train or evaluate
+machine-learning systems.

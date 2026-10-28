@@ -12,6 +12,10 @@ Full result tables: [REPORT.md](REPORT.md)
 
 ![Opening of the film](figures/film_005_0s.png)
 
+## Timeline
+
+The idea came from reading about Google DeepMind's virtual fruit fly. I built and ran the experiments, the film and this write-up on October 28, 2026, on one home computer, and the timestamps in the logs and commits are from that day. The chess training alone took about 20 minutes.
+
 ## Research questions
 
 - What does it learn when nobody gives it the solution?
@@ -69,9 +73,28 @@ In unfamiliar worlds it reached the goal in only 18% of corridor mazes, mostly b
 - [figures/](figures/): stills from the film
 - [evidence/](evidence/): headline metrics and short excerpts of the timestamped event logs, covering one chess evaluation game, two programming attempts and the navigation tests
 - [REPORT.md](REPORT.md): all result tables, including every unseen programming problem and every failure
+- [src/brain/](src/brain/): the code for the three experiments
+- [src/film/](src/film/): the code that draws the film, composes its music and writes the report from the recorded results
 
-The experiment code, the trained networks and the full logs are not published.
+The trained networks and the full logs (about 240 MB) are not included, but the code regenerates them.
+
+## Run it yourself
+
+You need Python 3.10 or newer and [ffmpeg](https://ffmpeg.org/) on your path.
+
+```
+pip install -r requirements.txt
+cd src/brain
+python exp_code.py
+python exp_unfamiliar.py
+python exp_chess.py 8000 1000
+cd ../film
+python render.py
+python make_report.py
+```
+
+The programming and navigation experiments take a few minutes each and are seeded, so they reproduce the published numbers exactly. The chess run takes about 25 minutes on an ordinary home computer; its seeds are fixed too, but small timing differences between machines can change individual games. Everything is written to `src/logs/`, `src/results/` and `src/film_output/`. The film code uses fonts that ship with Windows (Segoe UI, Consolas and Segoe UI Symbol), so on another system you need to change the font paths at the top of `render.py`.
 
 ## Rights
 
-© 2026 Amaresh. All rights reserved; see [LICENSE](LICENSE). You may view this repository and share links to it. Copying, reproducing or reusing its content, results or methods requires my written permission.
+© 2026 Amaresh. All rights reserved; see [LICENSE](LICENSE). You may view this repository, share links to it, and download and run the code to review or check the results. Any other copying or reuse needs my written permission.
