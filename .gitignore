@@ -1,0 +1,6 @@
+src/logs/
+src/results/
+src/film_output/
+src/REPORT.md
+__pycache__/
+*.pyc
