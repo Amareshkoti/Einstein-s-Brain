@@ -1,0 +1,987 @@
+{
+ "budget": 250,
+ "no_experience_unseen": [
+  {
+   "problem": "countpos",
+   "title": "Count positive numbers",
+   "category": "arrays",
+   "solved": true,
+   "checked": 77,
+   "submissions": 1
+  },
+  {
+   "problem": "sumabs",
+   "title": "Sum of absolute values",
+   "category": "arrays",
+   "solved": true,
+   "checked": 56,
+   "submissions": 1
+  },
+  {
+   "problem": "secondsmallest",
+   "title": "Second smallest (with repeats)",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "maxjump",
+   "title": "Largest step between neighbours",
+   "category": "arrays",
+   "solved": true,
+   "checked": 88,
+   "submissions": 1
+  },
+  {
+   "problem": "issorted",
+   "title": "Is the array sorted?",
+   "category": "arrays",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "hasdups",
+   "title": "Contains a duplicate?",
+   "category": "arrays",
+   "solved": true,
+   "checked": 9,
+   "submissions": 2
+  },
+  {
+   "problem": "distincteven",
+   "title": "Count distinct even values",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "thirdlargest",
+   "title": "Third largest (with repeats)",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "upperrev",
+   "title": "Uppercase and reverse",
+   "category": "strings",
+   "solved": true,
+   "checked": 8,
+   "submissions": 1
+  },
+  {
+   "problem": "shortestword",
+   "title": "Length of shortest word",
+   "category": "strings",
+   "solved": true,
+   "checked": 20,
+   "submissions": 1
+  },
+  {
+   "problem": "distinctletters",
+   "title": "Count distinct letters",
+   "category": "strings",
+   "solved": true,
+   "checked": 94,
+   "submissions": 3
+  },
+  {
+   "problem": "consonants",
+   "title": "Count consonants (letters only)",
+   "category": "strings",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "sumsq1n",
+   "title": "Sum of squares 1..n",
+   "category": "recursion",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "pow2",
+   "title": "2 to the power n",
+   "category": "recursion",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "minsub",
+   "title": "Minimum subarray sum",
+   "category": "dynamic programming",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "maxprefix",
+   "title": "Maximum prefix sum",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 69,
+   "submissions": 1
+  },
+  {
+   "problem": "incrun",
+   "title": "Longest increasing run",
+   "category": "dynamic programming",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "stairs",
+   "title": "Climbing stairs (ways)",
+   "category": "dynamic programming",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "components",
+   "title": "Number of connected components",
+   "category": "graphs",
+   "solved": true,
+   "checked": 19,
+   "submissions": 1
+  },
+  {
+   "problem": "biggestcomp",
+   "title": "Largest connected component",
+   "category": "graphs",
+   "solved": true,
+   "checked": 17,
+   "submissions": 1
+  },
+  {
+   "problem": "farthest",
+   "title": "Farthest node from node 0",
+   "category": "graphs",
+   "solved": true,
+   "checked": 22,
+   "submissions": 1
+  },
+  {
+   "problem": "leafnodes",
+   "title": "Count nodes of degree 1",
+   "category": "graphs",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "treemax",
+   "title": "Largest value in a tree",
+   "category": "trees",
+   "solved": true,
+   "checked": 16,
+   "submissions": 1
+  },
+  {
+   "problem": "leafcount",
+   "title": "Count leaves",
+   "category": "trees",
+   "solved": true,
+   "checked": 38,
+   "submissions": 2
+  },
+  {
+   "problem": "maxlevel",
+   "title": "Largest level sum",
+   "category": "trees",
+   "solved": true,
+   "checked": 50,
+   "submissions": 2
+  },
+  {
+   "problem": "isbst",
+   "title": "Is a binary search tree?",
+   "category": "trees",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  }
+ ],
+ "after_practice_unseen": [
+  {
+   "problem": "countpos",
+   "title": "Count positive numbers",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "sumabs",
+   "title": "Sum of absolute values",
+   "category": "arrays",
+   "solved": true,
+   "checked": 232,
+   "submissions": 1
+  },
+  {
+   "problem": "secondsmallest",
+   "title": "Second smallest (with repeats)",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "maxjump",
+   "title": "Largest step between neighbours",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "issorted",
+   "title": "Is the array sorted?",
+   "category": "arrays",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "hasdups",
+   "title": "Contains a duplicate?",
+   "category": "arrays",
+   "solved": true,
+   "checked": 9,
+   "submissions": 2
+  },
+  {
+   "problem": "distincteven",
+   "title": "Count distinct even values",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "thirdlargest",
+   "title": "Third largest (with repeats)",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "upperrev",
+   "title": "Uppercase and reverse",
+   "category": "strings",
+   "solved": true,
+   "checked": 8,
+   "submissions": 1
+  },
+  {
+   "problem": "shortestword",
+   "title": "Length of shortest word",
+   "category": "strings",
+   "solved": true,
+   "checked": 53,
+   "submissions": 1
+  },
+  {
+   "problem": "distinctletters",
+   "title": "Count distinct letters",
+   "category": "strings",
+   "solved": true,
+   "checked": 120,
+   "submissions": 3
+  },
+  {
+   "problem": "consonants",
+   "title": "Count consonants (letters only)",
+   "category": "strings",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "sumsq1n",
+   "title": "Sum of squares 1..n",
+   "category": "recursion",
+   "solved": true,
+   "checked": 34,
+   "submissions": 1
+  },
+  {
+   "problem": "pow2",
+   "title": "2 to the power n",
+   "category": "recursion",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "minsub",
+   "title": "Minimum subarray sum",
+   "category": "dynamic programming",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "maxprefix",
+   "title": "Maximum prefix sum",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 29,
+   "submissions": 1
+  },
+  {
+   "problem": "incrun",
+   "title": "Longest increasing run",
+   "category": "dynamic programming",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "stairs",
+   "title": "Climbing stairs (ways)",
+   "category": "dynamic programming",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "components",
+   "title": "Number of connected components",
+   "category": "graphs",
+   "solved": true,
+   "checked": 66,
+   "submissions": 1
+  },
+  {
+   "problem": "biggestcomp",
+   "title": "Largest connected component",
+   "category": "graphs",
+   "solved": true,
+   "checked": 52,
+   "submissions": 1
+  },
+  {
+   "problem": "farthest",
+   "title": "Farthest node from node 0",
+   "category": "graphs",
+   "solved": true,
+   "checked": 118,
+   "submissions": 2
+  },
+  {
+   "problem": "leafnodes",
+   "title": "Count nodes of degree 1",
+   "category": "graphs",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "treemax",
+   "title": "Largest value in a tree",
+   "category": "trees",
+   "solved": true,
+   "checked": 22,
+   "submissions": 1
+  },
+  {
+   "problem": "leafcount",
+   "title": "Count leaves",
+   "category": "trees",
+   "solved": true,
+   "checked": 184,
+   "submissions": 2
+  },
+  {
+   "problem": "maxlevel",
+   "title": "Largest level sum",
+   "category": "trees",
+   "solved": false,
+   "checked": 250,
+   "submissions": 1
+  },
+  {
+   "problem": "isbst",
+   "title": "Is a binary search tree?",
+   "category": "trees",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  }
+ ],
+ "no_experience_practice_set": [
+  {
+   "problem": "sum",
+   "title": "Sum of array",
+   "category": "arrays",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "max",
+   "title": "Maximum element",
+   "category": "arrays",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "min",
+   "title": "Minimum element",
+   "category": "arrays",
+   "solved": true,
+   "checked": 3,
+   "submissions": 1
+  },
+  {
+   "problem": "length",
+   "title": "Length of array",
+   "category": "arrays",
+   "solved": true,
+   "checked": 4,
+   "submissions": 1
+  },
+  {
+   "problem": "sort",
+   "title": "Sort ascending",
+   "category": "arrays",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "sortdesc",
+   "title": "Sort descending",
+   "category": "arrays",
+   "solved": true,
+   "checked": 22,
+   "submissions": 1
+  },
+  {
+   "problem": "reverse",
+   "title": "Reverse array",
+   "category": "arrays",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "counteven",
+   "title": "Count even numbers",
+   "category": "arrays",
+   "solved": true,
+   "checked": 96,
+   "submissions": 2
+  },
+  {
+   "problem": "sumeven",
+   "title": "Sum of even numbers",
+   "category": "arrays",
+   "solved": true,
+   "checked": 66,
+   "submissions": 1
+  },
+  {
+   "problem": "sumsq",
+   "title": "Sum of squares",
+   "category": "arrays",
+   "solved": true,
+   "checked": 49,
+   "submissions": 1
+  },
+  {
+   "problem": "distinct",
+   "title": "Count distinct values",
+   "category": "arrays",
+   "solved": true,
+   "checked": 51,
+   "submissions": 1
+  },
+  {
+   "problem": "sortuniq",
+   "title": "Sorted distinct values",
+   "category": "arrays",
+   "solved": true,
+   "checked": 23,
+   "submissions": 1
+  },
+  {
+   "problem": "secondlargest",
+   "title": "Second largest (with repeats)",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "maxeven",
+   "title": "Largest even number + 1",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "srev",
+   "title": "Reverse a string",
+   "category": "strings",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "supper",
+   "title": "Uppercase a string",
+   "category": "strings",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "slen",
+   "title": "Length of string",
+   "category": "strings",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "words",
+   "title": "Count words",
+   "category": "strings",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "vowelcount",
+   "title": "Count vowels",
+   "category": "strings",
+   "solved": true,
+   "checked": 16,
+   "submissions": 1
+  },
+  {
+   "problem": "longestword",
+   "title": "Length of longest word",
+   "category": "strings",
+   "solved": true,
+   "checked": 19,
+   "submissions": 1
+  },
+  {
+   "problem": "palindrome",
+   "title": "Is palindrome",
+   "category": "strings",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "letters",
+   "title": "Letters without spaces, sorted",
+   "category": "strings",
+   "solved": true,
+   "checked": 15,
+   "submissions": 1
+  },
+  {
+   "problem": "gauss",
+   "title": "Sum 1..n",
+   "category": "recursion",
+   "solved": true,
+   "checked": 144,
+   "submissions": 1
+  },
+  {
+   "problem": "factorial",
+   "title": "Factorial n!",
+   "category": "recursion",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "triangular",
+   "title": "Triangular numbers up to n",
+   "category": "recursion",
+   "solved": true,
+   "checked": 137,
+   "submissions": 1
+  },
+  {
+   "problem": "squares",
+   "title": "Squares below n",
+   "category": "recursion",
+   "solved": true,
+   "checked": 10,
+   "submissions": 1
+  },
+  {
+   "problem": "prefix",
+   "title": "Prefix sums",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 12,
+   "submissions": 1
+  },
+  {
+   "problem": "runmax",
+   "title": "Running maximum",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 13,
+   "submissions": 1
+  },
+  {
+   "problem": "kadane",
+   "title": "Maximum subarray sum",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 151,
+   "submissions": 2
+  },
+  {
+   "problem": "edges",
+   "title": "Number of edges",
+   "category": "graphs",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "maxdeg",
+   "title": "Maximum degree",
+   "category": "graphs",
+   "solved": true,
+   "checked": 16,
+   "submissions": 2
+  },
+  {
+   "problem": "treesize",
+   "title": "Size of a binary tree",
+   "category": "trees",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "treeheight",
+   "title": "Height of a binary tree",
+   "category": "trees",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "inorder",
+   "title": "In-order traversal",
+   "category": "trees",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "treesum",
+   "title": "Sum of tree values",
+   "category": "trees",
+   "solved": true,
+   "checked": 15,
+   "submissions": 1
+  }
+ ],
+ "after_practice_practice_set": [
+  {
+   "problem": "sum",
+   "title": "Sum of array",
+   "category": "arrays",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "max",
+   "title": "Maximum element",
+   "category": "arrays",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "min",
+   "title": "Minimum element",
+   "category": "arrays",
+   "solved": true,
+   "checked": 3,
+   "submissions": 1
+  },
+  {
+   "problem": "length",
+   "title": "Length of array",
+   "category": "arrays",
+   "solved": true,
+   "checked": 4,
+   "submissions": 1
+  },
+  {
+   "problem": "sort",
+   "title": "Sort ascending",
+   "category": "arrays",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "sortdesc",
+   "title": "Sort descending",
+   "category": "arrays",
+   "solved": true,
+   "checked": 9,
+   "submissions": 1
+  },
+  {
+   "problem": "reverse",
+   "title": "Reverse array",
+   "category": "arrays",
+   "solved": true,
+   "checked": 4,
+   "submissions": 1
+  },
+  {
+   "problem": "counteven",
+   "title": "Count even numbers",
+   "category": "arrays",
+   "solved": true,
+   "checked": 6,
+   "submissions": 1
+  },
+  {
+   "problem": "sumeven",
+   "title": "Sum of even numbers",
+   "category": "arrays",
+   "solved": true,
+   "checked": 7,
+   "submissions": 1
+  },
+  {
+   "problem": "sumsq",
+   "title": "Sum of squares",
+   "category": "arrays",
+   "solved": true,
+   "checked": 8,
+   "submissions": 1
+  },
+  {
+   "problem": "distinct",
+   "title": "Count distinct values",
+   "category": "arrays",
+   "solved": true,
+   "checked": 9,
+   "submissions": 1
+  },
+  {
+   "problem": "sortuniq",
+   "title": "Sorted distinct values",
+   "category": "arrays",
+   "solved": true,
+   "checked": 9,
+   "submissions": 1
+  },
+  {
+   "problem": "secondlargest",
+   "title": "Second largest (with repeats)",
+   "category": "arrays",
+   "solved": false,
+   "checked": 250,
+   "submissions": 0
+  },
+  {
+   "problem": "maxeven",
+   "title": "Largest even number + 1",
+   "category": "arrays",
+   "solved": true,
+   "checked": 14,
+   "submissions": 1
+  },
+  {
+   "problem": "srev",
+   "title": "Reverse a string",
+   "category": "strings",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "supper",
+   "title": "Uppercase a string",
+   "category": "strings",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "slen",
+   "title": "Length of string",
+   "category": "strings",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "words",
+   "title": "Count words",
+   "category": "strings",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "vowelcount",
+   "title": "Count vowels",
+   "category": "strings",
+   "solved": true,
+   "checked": 3,
+   "submissions": 1
+  },
+  {
+   "problem": "longestword",
+   "title": "Length of longest word",
+   "category": "strings",
+   "solved": true,
+   "checked": 4,
+   "submissions": 1
+  },
+  {
+   "problem": "palindrome",
+   "title": "Is palindrome",
+   "category": "strings",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "letters",
+   "title": "Letters without spaces, sorted",
+   "category": "strings",
+   "solved": true,
+   "checked": 5,
+   "submissions": 1
+  },
+  {
+   "problem": "gauss",
+   "title": "Sum 1..n",
+   "category": "recursion",
+   "solved": true,
+   "checked": 10,
+   "submissions": 1
+  },
+  {
+   "problem": "factorial",
+   "title": "Factorial n!",
+   "category": "recursion",
+   "solved": true,
+   "checked": 11,
+   "submissions": 1
+  },
+  {
+   "problem": "triangular",
+   "title": "Triangular numbers up to n",
+   "category": "recursion",
+   "solved": true,
+   "checked": 7,
+   "submissions": 1
+  },
+  {
+   "problem": "squares",
+   "title": "Squares below n",
+   "category": "recursion",
+   "solved": true,
+   "checked": 4,
+   "submissions": 1
+  },
+  {
+   "problem": "prefix",
+   "title": "Prefix sums",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 5,
+   "submissions": 1
+  },
+  {
+   "problem": "runmax",
+   "title": "Running maximum",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 4,
+   "submissions": 1
+  },
+  {
+   "problem": "kadane",
+   "title": "Maximum subarray sum",
+   "category": "dynamic programming",
+   "solved": true,
+   "checked": 9,
+   "submissions": 1
+  },
+  {
+   "problem": "edges",
+   "title": "Number of edges",
+   "category": "graphs",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "maxdeg",
+   "title": "Maximum degree",
+   "category": "graphs",
+   "solved": true,
+   "checked": 2,
+   "submissions": 2
+  },
+  {
+   "problem": "treesize",
+   "title": "Size of a binary tree",
+   "category": "trees",
+   "solved": true,
+   "checked": 2,
+   "submissions": 1
+  },
+  {
+   "problem": "treeheight",
+   "title": "Height of a binary tree",
+   "category": "trees",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "inorder",
+   "title": "In-order traversal",
+   "category": "trees",
+   "solved": true,
+   "checked": 1,
+   "submissions": 1
+  },
+  {
+   "problem": "treesum",
+   "title": "Sum of tree values",
+   "category": "trees",
+   "solved": true,
+   "checked": 3,
+   "submissions": 1
+  }
+ ]
+}

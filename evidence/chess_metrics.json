@@ -1,0 +1,576 @@
+{
+ "n_practice_games": 8000,
+ "evaluations": [
+  {
+   "tag": "game0000",
+   "random": {
+    "win": 1,
+    "draw": 35,
+    "loss": 4,
+    "games": 40,
+    "score": 0.4625,
+    "mean_final_material": 3.0,
+    "blunders_per_100_moves": 47.36134453781513,
+    "missed_mates": 22,
+    "mean_decision_ms": 1.1170857142857142,
+    "endings": {
+     "move-limit": 33,
+     "checkmate": 5,
+     "fivefold_repetition": 2
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 39,
+    "loss": 1,
+    "games": 40,
+    "score": 0.4875,
+    "mean_final_material": -22.725,
+    "blunders_per_100_moves": 5.9106529209622,
+    "missed_mates": 0,
+    "mean_decision_ms": 0.46415807560137456,
+    "endings": {
+     "move-limit": 31,
+     "stalemate": 8,
+     "checkmate": 1
+    }
+   },
+   "material-lookahead": {
+    "win": 0,
+    "draw": 3,
+    "loss": 37,
+    "games": 40,
+    "score": 0.0375,
+    "mean_final_material": -26.075,
+    "blunders_per_100_moves": 12.73247496423462,
+    "missed_mates": 0,
+    "mean_decision_ms": 0.789062947067239,
+    "endings": {
+     "move-limit": 2,
+     "checkmate": 37,
+     "stalemate": 1
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 4,
+     "total": 100,
+     "rate": 0.04,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 22,
+     "total": 100,
+     "rate": 0.22,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 1,
+     "total": 30,
+     "rate": 0.03333333333333333,
+     "chance_rate": 0.03675011895419115
+    }
+   },
+   "chess960": {
+    "tag": "game0000-960",
+    "random-chess960": {
+     "win": 2,
+     "draw": 18,
+     "loss": 0,
+     "games": 20,
+     "score": 0.55,
+     "mean_final_material": 7.65,
+     "blunders_per_100_moves": 42.392717815344604,
+     "missed_mates": 32,
+     "mean_decision_ms": 1.1323342002600778,
+     "endings": {
+      "move-limit": 18,
+      "checkmate": 2
+     }
+    }
+   }
+  },
+  {
+   "tag": "game1000",
+   "random": {
+    "win": 4,
+    "draw": 36,
+    "loss": 0,
+    "games": 40,
+    "score": 0.55,
+    "mean_final_material": 15.2,
+    "blunders_per_100_moves": 36.084583901773534,
+    "missed_mates": 148,
+    "mean_decision_ms": 1.088693724420191,
+    "endings": {
+     "move-limit": 30,
+     "checkmate": 4,
+     "stalemate": 2,
+     "fivefold_repetition": 4
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 37,
+    "loss": 3,
+    "games": 40,
+    "score": 0.4625,
+    "mean_final_material": -20.325,
+    "blunders_per_100_moves": 6.0782967032967035,
+    "missed_mates": 0,
+    "mean_decision_ms": 0.3927747252747252,
+    "endings": {
+     "move-limit": 28,
+     "checkmate": 3,
+     "stalemate": 9
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 5,
+     "total": 100,
+     "rate": 0.05,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 39,
+     "total": 100,
+     "rate": 0.39,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 1,
+     "total": 30,
+     "rate": 0.03333333333333333,
+     "chance_rate": 0.03675011895419115
+    }
+   }
+  },
+  {
+   "tag": "game2000",
+   "random": {
+    "win": 2,
+    "draw": 38,
+    "loss": 0,
+    "games": 40,
+    "score": 0.525,
+    "mean_final_material": 13.475,
+    "blunders_per_100_moves": 40.872111942726974,
+    "missed_mates": 135,
+    "mean_decision_ms": 1.1274031890660592,
+    "endings": {
+     "move-limit": 35,
+     "fivefold_repetition": 2,
+     "stalemate": 1,
+     "checkmate": 2
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 36,
+    "loss": 4,
+    "games": 40,
+    "score": 0.45,
+    "mean_final_material": -20.2,
+    "blunders_per_100_moves": 6.652512384996461,
+    "missed_mates": 1,
+    "mean_decision_ms": 0.4184394904458599,
+    "endings": {
+     "move-limit": 29,
+     "stalemate": 7,
+     "checkmate": 4
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 8,
+     "total": 100,
+     "rate": 0.08,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 35,
+     "total": 100,
+     "rate": 0.35,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 1,
+     "total": 30,
+     "rate": 0.03333333333333333,
+     "chance_rate": 0.03675011895419115
+    }
+   }
+  },
+  {
+   "tag": "game3000",
+   "random": {
+    "win": 7,
+    "draw": 33,
+    "loss": 0,
+    "games": 40,
+    "score": 0.5875,
+    "mean_final_material": 15.75,
+    "blunders_per_100_moves": 40.31291611185087,
+    "missed_mates": 223,
+    "mean_decision_ms": 1.1493242343541945,
+    "endings": {
+     "checkmate": 7,
+     "move-limit": 27,
+     "fivefold_repetition": 4,
+     "stalemate": 2
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 39,
+    "loss": 1,
+    "games": 40,
+    "score": 0.4875,
+    "mean_final_material": -19.425,
+    "blunders_per_100_moves": 6.631393298059964,
+    "missed_mates": 3,
+    "mean_decision_ms": 0.4186067019400353,
+    "endings": {
+     "stalemate": 9,
+     "move-limit": 30,
+     "checkmate": 1
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 5,
+     "total": 100,
+     "rate": 0.05,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 35,
+     "total": 100,
+     "rate": 0.35,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 1,
+     "total": 30,
+     "rate": 0.03333333333333333,
+     "chance_rate": 0.03675011895419115
+    }
+   }
+  },
+  {
+   "tag": "game4000",
+   "random": {
+    "win": 6,
+    "draw": 33,
+    "loss": 1,
+    "games": 40,
+    "score": 0.5625,
+    "mean_final_material": 11.1,
+    "blunders_per_100_moves": 43.22147651006711,
+    "missed_mates": 134,
+    "mean_decision_ms": 1.0883724832214765,
+    "endings": {
+     "move-limit": 30,
+     "checkmate": 7,
+     "fivefold_repetition": 2,
+     "stalemate": 1
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 31,
+    "loss": 9,
+    "games": 40,
+    "score": 0.3875,
+    "mean_final_material": -21.4,
+    "blunders_per_100_moves": 7.219251336898396,
+    "missed_mates": 9,
+    "mean_decision_ms": 0.44380443086325444,
+    "endings": {
+     "move-limit": 21,
+     "checkmate": 9,
+     "stalemate": 10
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 3,
+     "total": 100,
+     "rate": 0.03,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 34,
+     "total": 100,
+     "rate": 0.34,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 1,
+     "total": 30,
+     "rate": 0.03333333333333333,
+     "chance_rate": 0.03675011895419115
+    }
+   }
+  },
+  {
+   "tag": "game5000",
+   "random": {
+    "win": 5,
+    "draw": 35,
+    "loss": 0,
+    "games": 40,
+    "score": 0.5625,
+    "mean_final_material": 14.35,
+    "blunders_per_100_moves": 35.04078303425775,
+    "missed_mates": 148,
+    "mean_decision_ms": 1.079778140293638,
+    "endings": {
+     "move-limit": 33,
+     "checkmate": 5,
+     "stalemate": 1,
+     "fivefold_repetition": 1
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 37,
+    "loss": 3,
+    "games": 40,
+    "score": 0.4625,
+    "mean_final_material": -20.975,
+    "blunders_per_100_moves": 6.6855323664662185,
+    "missed_mates": 1,
+    "mean_decision_ms": 0.3815670321896003,
+    "endings": {
+     "move-limit": 28,
+     "stalemate": 9,
+     "checkmate": 3
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 8,
+     "total": 100,
+     "rate": 0.08,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 44,
+     "total": 100,
+     "rate": 0.44,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 0,
+     "total": 30,
+     "rate": 0.0,
+     "chance_rate": 0.03675011895419115
+    }
+   }
+  },
+  {
+   "tag": "game6000",
+   "random": {
+    "win": 8,
+    "draw": 32,
+    "loss": 0,
+    "games": 40,
+    "score": 0.6,
+    "mean_final_material": 12.925,
+    "blunders_per_100_moves": 37.872049264454326,
+    "missed_mates": 154,
+    "mean_decision_ms": 1.120195005131714,
+    "endings": {
+     "stalemate": 4,
+     "move-limit": 27,
+     "checkmate": 8,
+     "fivefold_repetition": 1
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 38,
+    "loss": 2,
+    "games": 40,
+    "score": 0.475,
+    "mean_final_material": -19.125,
+    "blunders_per_100_moves": 6.714285714285714,
+    "missed_mates": 12,
+    "mean_decision_ms": 0.4136178571428572,
+    "endings": {
+     "move-limit": 26,
+     "stalemate": 12,
+     "checkmate": 2
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 2,
+     "total": 100,
+     "rate": 0.02,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 41,
+     "total": 100,
+     "rate": 0.41,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 0,
+     "total": 30,
+     "rate": 0.0,
+     "chance_rate": 0.03675011895419115
+    }
+   }
+  },
+  {
+   "tag": "game7000",
+   "random": {
+    "win": 10,
+    "draw": 30,
+    "loss": 0,
+    "games": 40,
+    "score": 0.625,
+    "mean_final_material": 15.6,
+    "blunders_per_100_moves": 40.50675675675676,
+    "missed_mates": 171,
+    "mean_decision_ms": 1.1160506756756758,
+    "endings": {
+     "checkmate": 10,
+     "move-limit": 28,
+     "fivefold_repetition": 1,
+     "stalemate": 1
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 38,
+    "loss": 2,
+    "games": 40,
+    "score": 0.475,
+    "mean_final_material": -21.175,
+    "blunders_per_100_moves": 6.9225251076040175,
+    "missed_mates": 8,
+    "mean_decision_ms": 0.3751040172166427,
+    "endings": {
+     "move-limit": 25,
+     "stalemate": 13,
+     "checkmate": 2
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 2,
+     "total": 100,
+     "rate": 0.02,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 45,
+     "total": 100,
+     "rate": 0.45,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 0,
+     "total": 30,
+     "rate": 0.0,
+     "chance_rate": 0.03675011895419115
+    }
+   }
+  },
+  {
+   "tag": "game8000",
+   "random": {
+    "win": 9,
+    "draw": 31,
+    "loss": 0,
+    "games": 40,
+    "score": 0.6125,
+    "mean_final_material": 16.725,
+    "blunders_per_100_moves": 40.17949603037625,
+    "missed_mates": 174,
+    "mean_decision_ms": 1.1795857783914394,
+    "endings": {
+     "move-limit": 27,
+     "stalemate": 4,
+     "checkmate": 9
+    }
+   },
+   "greedy-capture": {
+    "win": 0,
+    "draw": 38,
+    "loss": 2,
+    "games": 40,
+    "score": 0.475,
+    "mean_final_material": -21.35,
+    "blunders_per_100_moves": 7.02416918429003,
+    "missed_mates": 5,
+    "mean_decision_ms": 0.4182477341389728,
+    "endings": {
+     "move-limit": 20,
+     "stalemate": 18,
+     "checkmate": 2
+    }
+   },
+   "material-lookahead": {
+    "win": 0,
+    "draw": 2,
+    "loss": 38,
+    "games": 40,
+    "score": 0.025,
+    "mean_final_material": -29.275,
+    "blunders_per_100_moves": 14.161220043572985,
+    "missed_mates": 0,
+    "mean_decision_ms": 0.7160058097313,
+    "endings": {
+     "checkmate": 38,
+     "move-limit": 2
+    }
+   },
+   "puzzles": {
+    "mate_in_1": {
+     "solved": 2,
+     "total": 100,
+     "rate": 0.02,
+     "chance_rate": 0.03752653310824991
+    },
+    "win_free_queen": {
+     "solved": 44,
+     "total": 100,
+     "rate": 0.44,
+     "chance_rate": 0.24544442333944994
+    },
+    "mate_in_2": {
+     "solved": 2,
+     "total": 30,
+     "rate": 0.06666666666666667,
+     "chance_rate": 0.03675011895419115
+    }
+   },
+   "chess960": {
+    "tag": "game8000-960",
+    "random-chess960": {
+     "win": 2,
+     "draw": 18,
+     "loss": 0,
+     "games": 20,
+     "score": 0.55,
+     "mean_final_material": 9.7,
+     "blunders_per_100_moves": 42.934051144010766,
+     "missed_mates": 124,
+     "mean_decision_ms": 1.1482234185733513,
+     "endings": {
+      "move-limit": 16,
+      "checkmate": 2,
+      "stalemate": 1,
+      "fivefold_repetition": 1
+     }
+    }
+   }
+  }
+ ]
+}
