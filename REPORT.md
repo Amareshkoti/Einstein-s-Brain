@@ -1,22 +1,22 @@
-# A Digital Brain — Home Research Experiment
+# A digital brain: home research experiment
 
 *Amaresh | Student and Open Researcher · October 2026*
 
-An experiment in how an artificial learning system behaves with familiar tasks, unfamiliar ones, failure and repeated experience. It is inspired by Einstein's curiosity and mathematical imagination. It is **not** a model of Einstein's brain, personality or intelligence, and nothing here claims thoughts, emotions or consciousness.
+An experiment in how an artificial learning system behaves with familiar tasks, unfamiliar ones, failure and repeated experience. It is inspired by Einstein's curiosity and mathematical imagination. The system has none of Einstein's knowledge, and nothing here claims it has thoughts, emotions or consciousness.
 
-**Film:** [film/digital_brain_research_film.mp4](film/digital_brain_research_film.mp4) (60 s). Every frame is drawn from the recorded logs and results.
+Film: [film/digital_brain_research_film.mp4](film/digital_brain_research_film.mp4) (60 s). Every frame is drawn from the recorded logs and results.
 
 ## What counts as evidence here
 
-- **Measured directly:** actions chosen, alternatives it scored, decision times, rewards and outcomes, test results, memory reads and writes, exploration flags, and hidden-unit activations of its networks.
-- **Labelled by an outside referee:** chess blunders, missed mates and puzzle answers. The referee is a fixed checker, not part of the brain.
-- **Not claimed:** understanding, intention, insight or feeling. A change in activations shows that something changed, not what it means.
-- **No outside help:** no language model, engine or human writes moves, programs or routes for it. In the programming experiment it builds programs from a fixed set of 74 building blocks; it does not write free-form code.
-- **Not hand-picked:** the film shows the chess game picked by a fixed rule (a checkmate win if one exists, otherwise the game where it finished furthest ahead) and the first recorded runs of each showcase. Failures are reported next to successes.
+- Measured directly: actions chosen, alternatives it scored, decision times, rewards and outcomes, test results, memory reads and writes, exploration flags, and hidden-unit activations of its networks.
+- Labelled by an outside referee: chess blunders, missed mates and puzzle answers. The referee is a fixed checker, not part of the brain.
+- Not claimed: understanding, intention, insight or feeling. A change in activations shows that something changed and says nothing about what it means.
+- No outside help: no language model, engine or human writes moves, programs or routes for it. In the programming experiment it builds programs from a fixed set of 74 building blocks; it does not write free-form code.
+- Not hand-picked: the film shows the chess game picked by a fixed rule (a checkmate win if one exists, otherwise the game where it finished furthest ahead) and the first recorded runs of each showcase. Failures are reported next to successes.
 
-## Experiment 1 — Chess
+## Experiment 1: chess
 
-The brain was given the rules and, after each game, only *win / loss / draw*. It was not given piece values, openings or tactics. It played **8,000 practice games** against itself, a random mover and a greedy capturer. Evaluations used fixed opponents and puzzle sets taken from games it never played.
+The brain was given the rules and, after each game, only *win / loss / draw*. It was not given piece values, openings or tactics. It played 8,000 practice games against itself, a random mover and a greedy capturer. Evaluations used fixed opponents and puzzle sets taken from games it never played.
 
 | Measure | Before learning | After learning |
 |---|---|---|
@@ -30,7 +30,7 @@ The brain was given the rules and, after each game, only *win / loss / draw*. It
 | Blunders per 100 moves vs random | 47 | 40 |
 | Missed mate-in-one chances vs random (40 games) | 22 | 174 |
 | Mean decision time | 1.1 ms | 1.2 ms |
-| **Unseen Chess960 starts** vs random: score / material | 55% / +7.7 | 55% / +9.7 |
+| Unseen Chess960 starts vs random: score / material | 55% / +7.7 | 55% / +9.7 |
 
 Checkpoints during learning (vs random mover):
 
@@ -46,9 +46,9 @@ Checkpoints during learning (vs random mover):
 | 7,000 | 62% | +15.6 | 45% | 2% |
 | 8,000 | 61% | +16.7 | 44% | 2% |
 
-## Experiment 2 — Programming challenges
+## Experiment 2: programming challenges
 
-Each problem gives only **3 visible examples**. A submission is run on **30 hidden tests**. Like LeetCode, a wrong answer returns one failing case, which the brain adds to its examples before searching again (up to 4 submissions). Every attempt has the same budget of 250 candidate programs. From experience it can learn which building blocks tend to follow each other, invent new blocks from repeated sub-solutions, and recall similar solved problems. A copy with no experience was run on the same problems with the same budget.
+Each problem gives only 3 visible examples. A submission is run on 30 hidden tests. Like LeetCode, a wrong answer returns one failing case, which the brain adds to its examples before searching again (up to 4 submissions). Every attempt has the same budget of 250 candidate programs. From experience it can learn which building blocks tend to follow each other, invent new blocks from repeated sub-solutions, and recall similar solved problems. A copy with no experience was run on the same problems with the same budget.
 
 | Problem set | No experience: solved / median candidates | After practice: solved / median candidates |
 |---|---|---|
@@ -59,10 +59,10 @@ Never-seen problems, one by one (✓ = all 30 hidden tests passed):
 
 | Category | Problem | No experience | After practice | Notes |
 |---|---|---|---|---|
-| arrays | Count positive numbers | ✓ 77 cand., 1 sub. | ✗ 250 cand., 1 sub. | **lost** — learned preferences steered the search away |
+| arrays | Count positive numbers | ✓ 77 cand., 1 sub. | ✗ 250 cand., 1 sub. | lost; learned preferences steered the search away |
 | arrays | Sum of absolute values | ✓ 56 cand., 1 sub. | ✓ 232 cand., 1 sub. |  |
 | arrays | Second smallest (with repeats) | ✗ 250 cand., 0 sub. | ✗ 250 cand., 0 sub. | unsolved within budget |
-| arrays | Largest step between neighbours | ✓ 88 cand., 1 sub. | ✗ 250 cand., 0 sub. | **lost** — learned preferences steered the search away |
+| arrays | Largest step between neighbours | ✓ 88 cand., 1 sub. | ✗ 250 cand., 0 sub. | lost; learned preferences steered the search away |
 | arrays | Is the array sorted? | ✓ 1 cand., 1 sub. | ✓ 1 cand., 1 sub. |  |
 | arrays | Contains a duplicate? | ✓ 9 cand., 2 sub. | ✓ 9 cand., 2 sub. |  |
 | arrays | Count distinct even values | ✗ 250 cand., 1 sub. | ✗ 250 cand., 1 sub. | unsolved; wrong submission(s) |
@@ -83,12 +83,12 @@ Never-seen problems, one by one (✓ = all 30 hidden tests passed):
 | graphs | Count nodes of degree 1 | ✗ 250 cand., 1 sub. | ✗ 250 cand., 1 sub. | unsolved; wrong submission(s) |
 | trees | Largest value in a tree | ✓ 16 cand., 1 sub. | ✓ 22 cand., 1 sub. |  |
 | trees | Count leaves | ✓ 38 cand., 2 sub. | ✓ 184 cand., 2 sub. |  |
-| trees | Largest level sum | ✓ 50 cand., 2 sub. | ✗ 250 cand., 1 sub. | **lost** — learned preferences steered the search away |
+| trees | Largest level sum | ✓ 50 cand., 2 sub. | ✗ 250 cand., 1 sub. | lost; learned preferences steered the search away |
 | trees | Is a binary search tree? | ✓ 1 cand., 1 sub. | ✓ 1 cand., 1 sub. |  |
 
 Invented building blocks: range+inc.
 
-## Experiment 3 — Unfamiliar worlds
+## Experiment 3: unfamiliar worlds
 
 The brain learned to reach a goal in small open rooms. It sees a 5×5 patch around itself, the cells it has already visited, and the rough direction of the goal. It was then tested, with no warning, on worlds it had never met. Each test has 60 worlds; a little random exploration (5%) stays on.
 
@@ -99,7 +99,7 @@ The brain learned to reach a goal in small open rooms. It sees a 5×5 patch arou
 | Bigger rooms 13×13 | 95% | 7% | stuck in 8% of runs; recovered from 60% of those |
 | Corridor mazes | 18% | 0% | stuck in 77% of runs; recovered from 4% of those |
 | Deadly hazard tiles | 35% | 2% | stuck in 2% of runs; recovered from 0% of those; died on a hazard in 65% |
-| Mirrored left/right controls | 2% | — | stuck in 10% of runs; recovered from 0% of those |
+| Mirrored left/right controls | 2% | n/a | stuck in 10% of runs; recovered from 0% of those |
 
 Allowed to keep learning inside the unfamiliar world (success after each 100 episodes), then re-tested on the old rooms:
 
@@ -111,10 +111,10 @@ Allowed to keep learning inside the unfamiliar world (success after each 100 epi
 
 ## Observations
 
-1. **Chess:** from outcomes alone it learned to win material against weak opponents. Free-queen puzzles went from 22% to 44%, and material against a random mover went from +3.0 to +16.7. It still rarely turns that advantage into checkmate: most games end at the move limit, and it often misses mate in one. Positions that need a plan two moves deep remain largely beyond it.
-2. **Programming:** practice made solving familiar problem types much cheaper (fewer candidate programs checked). On never-seen problems the effect was mixed. Recalling related solutions solved a problem it could not solve before (sum of squares 1..n, built from what it learned on 'sum 1..n'). But its learned habits also made it miss problems the beginner copy solved. That is negative transfer.
-3. **Unfamiliar worlds:** navigation skill carried over to bigger rooms but not to winding corridor mazes, where it loops and times out. It walks into hazards it has never seen. With more learning it adapted to mirrored controls, but adapting overwrote its original skill (catastrophic forgetting).
-4. **Learning tests feedback:** in programming, wrong submissions were followed by revisions that used the returned failing case (see 'Count distinct letters' in the film: two wrong answers, then accepted on all 30 hidden tests).
+1. Chess: from outcomes alone it learned to win material against weak opponents. Free-queen puzzles went from 22% to 44%, and material against a random mover went from +3.0 to +16.7. It still rarely turns that advantage into checkmate: most games end at the move limit, and it often misses mate in one. Positions that need a plan two moves deep remain largely beyond it.
+2. Programming: practice made solving familiar problem types much cheaper (fewer candidate programs checked). On never-seen problems the effect was mixed. Recalling related solutions solved a problem it could not solve before (sum of squares 1..n, built from what it learned on 'sum 1..n'). Its learned habits also made it miss problems the beginner copy solved (negative transfer).
+3. Unfamiliar worlds: navigation skill carried over to bigger rooms but not to winding corridor mazes, where it loops and times out. It walks into hazards it has never seen. With more learning it adapted to mirrored controls, but adapting overwrote its original skill (catastrophic forgetting).
+4. Using test feedback: in programming, wrong submissions were followed by revisions that used the returned failing case (see 'Count distinct letters' in the film: two wrong answers, then accepted on all 30 hidden tests).
 
 ## What remains unsolved
 
